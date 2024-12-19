@@ -2,8 +2,8 @@ const solc = require('solc');
 const fs = require('fs');
 
 function generateContractCode(name, symbol, supply) {
-  const contractCode = `// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+  const contractCode = `// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
 
 contract ERC20 {
   mapping(address => uint256) public balances;
