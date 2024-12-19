@@ -26,5 +26,12 @@
     "chainId": "11155111",
     "symbol": "ETH",
     "explorer": "https://sepolia.etherscan.io"
+  },
+  {
+    "name": "Ink Sepolia",
+    "rpcUrl": "https://rpc-gel-sepolia.inkonchain.com",
+    "chainId": "763373",
+    "symbol": "ETH",
+    "explorer": "https://explorer-sepolia.inkonchain.com"
   }
 ]
